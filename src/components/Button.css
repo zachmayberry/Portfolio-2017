@@ -1,0 +1,21 @@
+.button {
+  font-family: Lato;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 0.06px;
+  line-height: 18px;
+  padding: 7px 10px 8px;
+  background: #B2C0CD;
+  border-radius: 4px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 140px;
+  margin: 13px auto 0;
+  opacity: 0.65;
+  transition: opacity 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.button:hover {
+  background: #885CEC;
+  opacity: 1;
+}

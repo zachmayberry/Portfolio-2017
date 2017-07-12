@@ -1,0 +1,177 @@
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  margin: 0 auto 200px;
+  justify-content: center;
+}
+
+.project {
+  box-sizing: border-box;
+  margin-top: 52px;
+  transition: all 0.5s;
+}
+
+@media (min-width: 400px) {
+  .project {
+    width: 50%;
+    padding: 0 26px;
+  }
+}
+
+@media (min-width: 900px) {
+  .project {
+    width: 33.333%;
+    padding: 0 26px;
+  }
+}
+
+.hideAllProjects .project {
+  opacity: 0;
+}
+
+.project.expanded {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  z-index: 200;
+}
+
+.project.expanded .shapes {
+  height: 101vh;
+}
+
+.project h1 {
+  font-family: Soleil;
+  font-size: 26px;
+  color: #131B26;
+  line-height: 26px;
+  text-align: center;
+}
+
+.project.expanded h1 {
+  margin-top: -150px;
+  color: white;
+}
+
+.project h2 {
+  font-family: Soleil;
+  font-size: 16px;
+  color: #B2C0CD;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.project.expanded h2 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.shapes {
+  position: relative;
+  height: 280px;
+  margin-bottom: 26px;
+}
+
+.shapes img {
+  position: absolute;
+  z-index: 1;
+}
+
+.shapes > div {
+  position: absolute;
+}
+
+.shapes .over {
+  z-index: 100;
+}
+
+.shapes .under {
+  z-index: -1;
+}
+
+.shapes .top {
+  top: 0;
+  bottom: auto;
+}
+
+.shapes .bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.shapes img.bottom {
+  bottom: 0px;
+}
+
+.shapes .bottom-offset {
+  top: auto;
+  bottom: 8%;
+}
+
+.shapes img.bottom-offset {
+  bottom: 8%;
+}
+
+.shapes .right {
+  right: 0;
+  left: auto;
+}
+
+.shapes .right-offset {
+  right: 5%;
+  left: auto;
+}
+
+.shapes .left {
+  right: auto;
+  left: 0;
+}
+
+.shapes .left-offset {
+  right: auto;
+  left: 5%;
+}
+
+.shapes .center {
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, 0);
+}
+
+.shapes > div, .shapes img, .shapes svg {
+  transition: height 0.5s, width 0.5s, transform 0.5s, top 0.5s, left 0.5s;
+}
+
+.project.expanded .shapes img {
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shapes:hover svg {
+  transform: rotate(15deg) translate(5px, 15px);
+}
+
+.expanded .shapes:hover svg {
+  transform: none;
+}
+
+.shapes:hover img {
+  transform: translateY(-50px) scale(1.15);
+}
+
+.shapes:hover .center {
+  transform: translateY(-50px) translateX(-50%) scale(1.15);
+}
+
+.project.expanded .shapes > div {
+  transition: all 0.5s;
+}
