@@ -14,8 +14,10 @@ const colors = {
 
 const projects = [
   {
+    id: '0',
     name: 'StartUp Health',
     projectType: 'Network',
+    url: '/work/suh/network',
     images: [
       {
         name: 'suh-profile-desktop',
@@ -41,8 +43,10 @@ const projects = [
     ]
   },
   {
+    id: '1',
     name: 'StartUp Health',
     projectType: 'Marketing',
+    url: '/work/suh/marketing',
     images: [
       {
         name: 'suh-marketing-desktop',
@@ -77,8 +81,10 @@ const projects = [
     ]
   },
   {
+    id: '2',
     name: 'StartUp Health',
     projectType: 'Hub Concept',
+    url: '/work/suh/hub',
     images: [
       {
         name: 'suh-hub-tall',
@@ -114,8 +120,10 @@ const projects = [
     ]
   },
   {
+    id: '3',
     name: 'Fresco for iPhone',
     projectType: 'iOS',
+    url: '/work/fresco/iphone',
     images: [
       {
         name: 'fresco-phone-landscape',
@@ -145,8 +153,10 @@ const projects = [
     ]
   },
   {
+    id: '4',
     name: 'Fresco for tv',
     projectType: 'tvOS',
+    url: '/work/fresco/tv',
     images: [
       {
         name: 'fresco-tv',
@@ -177,8 +187,10 @@ const projects = [
     ]
   },
   {
+    id: '5',
     name: 'Weight Watchers',
     projectType: 'Landing Page',
+    url: '/work/ww/landingpage',
     images: [
       {
         name: 'ww-landing-desktop',
@@ -203,8 +215,10 @@ const projects = [
     ]
   },
   {
+    id: '6',
     name: 'Lehigh Valley',
     projectType: 'Health Network',
+    url: '/work/lehighvalley/network',
     images: [
       {
         name: 'lehigh-network-desktop',
@@ -238,8 +252,10 @@ const projects = [
     ]
   },
   {
+    id: '7',
     name: 'Weight Watchers',
     projectType: 'Superbowl Ad 2015',
+    url: '/work/ww/superbowl',
     images: [
       {
         name: 'ww-superbowl-desktop',

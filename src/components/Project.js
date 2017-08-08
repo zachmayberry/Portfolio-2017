@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Project.css';
 
 import Shape from './Shape.js';
@@ -22,26 +23,28 @@ class Project extends Component {
     }
 
     return (
-      <li className={classList}>
-        <div className="shapes">
-          {shapeList}
-          {imageList}
-        </div>
-        <h1>{this.props.name}</h1>
-        <h2>{this.props.type}</h2>
+      <li key={this.props.id} className={classList}>
+        <Link to={this.props.url}>
+          <div className="shapes">
+            {shapeList}
+            {imageList}
+          </div>
+          <h1>{this.props.name}</h1>
+          <h2>{this.props.type}</h2>
+        </Link>
       </li>
     );
   }
 
   createShapeList() {
     return this.props.shapes.map((shape) =>
-      <Shape type={shape.type} location={shape.location} width={shape.width} height={shape.height} definition={shape.definition} rotation={shape.rotation} fill={shape.fill} id={shape.id} />
+      <Shape type={shape.type} location={shape.location} width={shape.width} height={shape.height} definition={shape.definition} rotation={shape.rotation} fill={shape.fill} id={shape.id} key={shape.id} />
     );
   }
 
   createImageList() {
     return this.props.images.map((image) =>
-      <img src={"/img/" + image.name + ".png"} srcSet={"/img/" + image.name + "@2x.png 2x"} alt="" width={image.width} className={image.location} />
+      <img alt="" key={image.name + image.width} src={"/img/" + image.name + ".png"} srcSet={"/img/" + image.name + "@2x.png 2x"} width={image.width} className={image.location} />
     );
   }
 

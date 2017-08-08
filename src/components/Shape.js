@@ -35,7 +35,7 @@ class Shape extends Component {
 
   render() {
     return (
-      <div id={this.props.id} className={this.props.location} />
+      <div key={this.props.id} id={this.props.id} className={this.props.location} />
     );
   }
 

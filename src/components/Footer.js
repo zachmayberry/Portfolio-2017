@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Footer.css';
 
-import EmailButton from './EmailButton';
+//import EmailButton from './EmailButton';
 
 class Footer extends Component {
   render() {

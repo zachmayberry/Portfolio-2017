@@ -3,11 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.5",
+    "cocoen": "^2.0.5",
     "email-obfuscate": "0.0.4",
     "email-obfuscator": "0.0.1",
+    "functional-easing": "^1.0.8",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-image-compare": "0.0.1",
+    "react-parallax": "^1.4.4",
+    "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.10",
+    "react-slick": "^0.14.11",
+    "slick-carousel": "^1.7.1",
     "svg.js": "^2.6.2"
   },
   "scripts": {

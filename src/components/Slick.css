@@ -1,0 +1,37 @@
+.slick-list {
+  padding-top: 26px !important;
+  padding-bottom: 26px !important;
+}
+
+.slick-slide {
+  box-sizing: border-box;
+  padding: 0 26px;
+  width: 50vw;
+}
+
+.slick-arrow {
+  width: 50%;
+  opacity: 0;
+  height: 100%;
+  z-index: 100;
+}
+
+.slick-arrow:hover {
+  opacity: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-next:hover {
+  cursor: e-resize;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-prev:hover {
+  cursor: w-resize;
+}

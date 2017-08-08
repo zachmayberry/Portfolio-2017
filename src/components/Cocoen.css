@@ -1,0 +1,27 @@
+.cocoen {
+  overflow: visible;
+  transition: opacity 2s;
+}
+
+.cocoen__state--unloaded {
+  opacity: 0;
+}
+
+.cocoen__state--loaded {
+  opacity: 1;
+}
+
+.cocoen-drag {
+  background: #0DB6E0;
+  bottom: -26px;
+  cursor: ew-resize;
+  left: 50%;
+  margin-left: -4px;
+  position: absolute;
+  top: -26px;
+  width: 8px
+}
+
+.cocoen-drag::before {
+  display: none;
+}

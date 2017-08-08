@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-  background-color: #F2F5F8;
+  background-color: #FFFFFF;
   margin: 0;
   font: 16px/1 'Lato', sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -57,4 +57,91 @@ img {
     max-width: 100%;
     height: auto;
     border: 0;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 100px auto;
+  clear: both;
+}
+
+.container__full {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header__small {
+  text-transform: uppercase;
+  font-family: AvenirNext-DemiBold;
+  font-size: 14px;
+  color: #B2C0CD;
+  letter-spacing: 0.58px;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+
+.header__large {
+  font-family: AvenirNext-Medium;
+  font-size: 35px;
+  color: #131B26;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-bottom: 10px;
+}
+
+.text__basic {
+  font-family: AvenirNext-Regular;
+  font-size: 18px;
+  color: #131B26;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+[class^="grid-"] {
+  float: left;
+}
+
+.grid-fifty {
+  width: 100%;
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .grid-fifty {
+    width: 50%;
+    padding: 0 26px;
+  }
+
+  .grid-fifty:first-child {
+    padding-left: 0;
+  }
+
+  .grid-fifty:last-child {
+    padding-right: 0;
+  }
+}
+
+.list__detail {
+  padding: 7px 0;
+}
+
+.list__detail li {
+  padding: 7px 0;
+  border-bottom: 1px solid #F2F5F8;
+  font-family: AvenirNext-DemiBold;
+  font-size: 18px;
+  color: #131B26;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.list__detail li:last-child {
+  border-bottom: 0;
 }

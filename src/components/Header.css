@@ -1,9 +1,14 @@
 header {
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   text-align: center;
+  background-color: #F2F5F8;
+  padding-top: 10%;
+}
+
+header .react-parallax {
+  height: 40vh;
+  text-align: center;
+  background-color: #F2F5F8;
+  padding-top: 10%;
 }
 
 header h1 {
