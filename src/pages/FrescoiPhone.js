@@ -52,27 +52,27 @@ class FrescoiPhone extends Component {
         <section className="container container__full">
           <Slider {...slickSettings}>
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-1.png" />
+              <img alt="" src="/img/frescoiphone-slider-1.jpg" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-2.png" />
+              <img alt="" src="/img/frescoiphone-slider-2.jpg" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-3.png" />
+              <img alt="" src="/img/frescoiphone-slider-3.jpg" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-4.png" />
+              <img alt="" src="/img/frescoiphone-slider-4.jpg" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-5.png" />
+              <img alt="" src="/img/frescoiphone-slider-5.jpg" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-6.png" onLoad={this.handleImageLoaded.bind(this)} />
+              <img alt="" src="/img/frescoiphone-slider-6.jpg" onLoad={this.handleImageLoaded.bind(this)} />
             </div>
           </Slider>
 

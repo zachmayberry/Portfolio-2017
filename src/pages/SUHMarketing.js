@@ -52,7 +52,7 @@ class SUHMarketing extends Component {
         <section className="container">
           <div className="screenshot__wrap screenshot__wrap--teal screenshot__wrap--scrollable">
             <div>
-              <img alt="" src="/img/suhmarketing-top-screenshot.png" srcSet="/img/suhmarketing-top-screenshot@2x.png 2x" />
+              <img alt="" src="/img/suhmarketing-top-screenshot.jpg" srcSet="/img/suhmarketing-top-screenshot@2x.jpg 2x" />
             </div>
           </div>
 
@@ -66,15 +66,15 @@ class SUHMarketing extends Component {
         <section className="container container__full">
           <Slider {...slickSettings}>
             <div className="screenshot__wrap screenshot__wrap--yellow">
-              <img alt="" src="/img/suhmarketing-slider-1.png" srcSet="/img/suhmarketing-slider-1@2x.png 2x" />
+              <img alt="" src="/img/suhmarketing-slider-1.jpg" srcSet="/img/suhmarketing-slider-1@2x.jpg 2x" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--blue">
-              <img alt="" src="/img/suhmarketing-slider-2.png" srcSet="/img/suhmarketing-slider-2@2x.png 2x" />
+              <img alt="" src="/img/suhmarketing-slider-2.jpg" srcSet="/img/suhmarketing-slider-2@2x.jpg 2x" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--green">
-              <img alt="" src="/img/suhmarketing-slider-3.png" srcSet="/img/suhmarketing-slider-3@2x.png 2x" onLoad={this.handleImageLoaded.bind(this)} />
+              <img alt="" src="/img/suhmarketing-slider-3.jpg" srcSet="/img/suhmarketing-slider-3@2x.jpg 2x" onLoad={this.handleImageLoaded.bind(this)} />
             </div>
           </Slider>
 
@@ -89,7 +89,7 @@ class SUHMarketing extends Component {
           <div className="grid-fifty">
             <div className="screenshot__wrap screenshot__wrap--scrollable">
               <div>
-                <img alt="" src="/img/suhmarketing-mobile-screenshot.png" srcSet="/img/suhmarketing-mobile-screenshot@2x.png 2x" />
+                <img alt="" src="/img/suhmarketing-mobile-screenshot.jpg" srcSet="/img/suhmarketing-mobile-screenshot@2x.jpg 2x" />
               </div>
             </div>
           </div>
