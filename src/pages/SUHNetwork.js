@@ -75,8 +75,8 @@ class SUHNetwork extends Component {
         <section className="container">
           <div className="screenshot__wrap">
             <div className={cocoenClass}>
-              <img alt="" src="/img/suhnetwork-comparison-old.jpg" srcSet="/img/suhnetwork-comparison-old@2x.jpg 2x" />
-              <img alt="" src="/img/suhnetwork-comparison-new.jpg" srcSet="/img/suhnetwork-comparison-new@2x.jpg 2x" />
+              <img alt="" src="/img/suhnetwork-comparison-old.webp" srcSet="/img/suhnetwork-comparison-old@2x.webp 2x" />
+              <img alt="" src="/img/suhnetwork-comparison-new.webp" srcSet="/img/suhnetwork-comparison-new@2x.webp 2x" />
             </div>
           </div>
 
@@ -90,7 +90,7 @@ class SUHNetwork extends Component {
         <section className="container">
           <div className="screenshot__wrap screenshot__wrap--teal screenshot__wrap--scrollable">
             <div>
-              <img alt="" src="/img/startuphealthnetwork-builder-screenshot.jpg" srcSet="/img/startuphealthnetwork-builder-screenshot@2x.jpg 2x" />
+              <img alt="" src="/img/startuphealthnetwork-builder-screenshot.webp" srcSet="/img/startuphealthnetwork-builder-screenshot@2x.webp 2x" />
             </div>
           </div>
 
@@ -104,15 +104,15 @@ class SUHNetwork extends Component {
         <section className="container container__full">
           <Slider {...slickSettings}>
             <div className="screenshot__wrap screenshot__wrap--yellow">
-              <img alt="" src="/img/suhnetwork-slider-1.jpg" srcSet="/img/suhnetwork-slider-1@2x.jpg 2x" />
+              <img alt="" src="/img/suhnetwork-slider-1.webp" srcSet="/img/suhnetwork-slider-1@2x.webp 2x" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--blue">
-              <img alt="" src="/img/suhnetwork-slider-2.jpg" srcSet="/img/suhnetwork-slider-2@2x.jpg 2x" />
+              <img alt="" src="/img/suhnetwork-slider-2.webp" srcSet="/img/suhnetwork-slider-2@2x.webp 2x" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--green">
-              <img alt="" src="/img/suhnetwork-slider-3.jpg" srcSet="/img/suhnetwork-slider-3@2x.jpg 2x" />
+              <img alt="" src="/img/suhnetwork-slider-3.webp" srcSet="/img/suhnetwork-slider-3@2x.webp 2x" />
             </div>
           </Slider>
 
@@ -125,7 +125,7 @@ class SUHNetwork extends Component {
 
         <section className="container">
           <div className="screenshot__wrap">
-            <img alt="" src="/img/suhnetwork-components-screenshot.jpg" srcSet="/img/suhnetwork-components-screenshot@2x.jpg 2x" />
+            <img alt="" src="/img/suhnetwork-components-screenshot.webp" srcSet="/img/suhnetwork-components-screenshot@2x.webp 2x" />
           </div>
 
           <div className="screenshot__caption screenshot__caption--center">
@@ -139,7 +139,7 @@ class SUHNetwork extends Component {
           <div className="grid-fifty">
             <div className="screenshot__wrap screenshot__wrap--scrollable screenshot__wrap--mobile">
               <div>
-                <img alt="" src="/img/suhnetwork-mobile-screenshot.jpg" srcSet="/img/suhnetwork-mobile-screenshot@2x.jpg 2x" />
+                <img alt="" src="/img/suhnetwork-mobile-screenshot.webp" srcSet="/img/suhnetwork-mobile-screenshot@2x.webp 2x" />
               </div>
             </div>
           </div>

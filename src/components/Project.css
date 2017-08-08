@@ -78,7 +78,7 @@
   margin-bottom: 26px;
 }
 
-.shapes img {
+.shapes picture {
   position: absolute;
   z-index: 1;
 }
@@ -105,16 +105,12 @@
   bottom: 0;
 }
 
-.shapes img.bottom {
+.shapes .bottom {
   bottom: 0px;
 }
 
 .shapes .bottom-offset {
   top: auto;
-  bottom: 8%;
-}
-
-.shapes img.bottom-offset {
   bottom: 8%;
 }
 
@@ -144,11 +140,11 @@
   transform: translate(-50%, 0);
 }
 
-.shapes > div, .shapes img, .shapes svg {
+.shapes > div, .shapes picture, .shapes svg {
   transition: height 0.5s, width 0.5s, transform 0.5s, top 0.5s, left 0.5s;
 }
 
-.project.expanded .shapes img {
+.project.expanded .shapes picture {
   left: 50%;
   right: auto;
   bottom: auto;
@@ -164,7 +160,7 @@
   transform: none;
 }
 
-.shapes:hover img {
+.shapes:hover picture {
   transform: translateY(-50px) scale(1.15);
 }
 

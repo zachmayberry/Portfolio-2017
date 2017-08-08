@@ -76,8 +76,8 @@ class SUHHub extends Component {
         <section className="container">
           <div className="screenshot__wrap">
             <div className={cocoenClass}>
-              <img alt="" src="/img/suhhub-comparison-overview.jpg" srcSet="/img/suhhub-comparison-overview@2x.jpg 2x" />
-              <img alt="" src="/img/suhhub-comparison-detail.jpg" srcSet="/img/suhhub-comparison-detail@2x.jpg 2x" />
+              <img alt="" src="/img/suhhub-comparison-overview.webp" srcSet="/img/suhhub-comparison-overview@2x.webp 2x" />
+              <img alt="" src="/img/suhhub-comparison-detail.webp" srcSet="/img/suhhub-comparison-detail@2x.webp 2x" />
             </div>
           </div>
 
@@ -90,7 +90,7 @@ class SUHHub extends Component {
 
         <section className="container">
           <div className="screenshot__wrap screenshot__wrap--teal screenshot__wrap--scrollable">
-            <img alt="" src="/img/suhhub-top-screenshot.jpg" srcSet="/img/suhhub-top-screenshot@2x.jpg 2x" />
+            <img alt="" src="/img/suhhub-top-screenshot.webp" srcSet="/img/suhhub-top-screenshot@2x.webp 2x" />
           </div>
 
           <div className="screenshot__caption screenshot__caption--center">
@@ -103,15 +103,15 @@ class SUHHub extends Component {
         <section className="container container__full">
           <Slider {...slickSettings}>
             <div className="screenshot__wrap screenshot__wrap--yellow">
-              <img alt="" src="/img/suhhub-slider-1.jpg" srcSet="/img/suhhub-slider-1@2x.jpg 2x" />
+              <img alt="" src="/img/suhhub-slider-1.webp" srcSet="/img/suhhub-slider-1@2x.webp 2x" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--blue">
-              <img alt="" src="/img/suhhub-slider-2.jpg" srcSet="/img/suhhub-slider-2@2x.jpg 2x" />
+              <img alt="" src="/img/suhhub-slider-2.webp" srcSet="/img/suhhub-slider-2@2x.webp 2x" />
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--green">
-              <img alt="" src="/img/suhhub-slider-3.jpg" srcSet="/img/suhhub-slider-3@2x.jpg 2x" />
+              <img alt="" src="/img/suhhub-slider-3.webp" srcSet="/img/suhhub-slider-3@2x.webp 2x" />
             </div>
           </Slider>
 

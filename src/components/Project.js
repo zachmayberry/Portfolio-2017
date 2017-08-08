@@ -44,7 +44,11 @@ class Project extends Component {
 
   createImageList() {
     return this.props.images.map((image) =>
-      <img alt="" key={image.name + image.width} src={"/img/" + image.name + ".jpg"} srcSet={"/img/" + image.name + "@2x.jpg 2x"} width={image.width} className={image.location} />
+      <picture alt="" key={image.name + image.width} className={image.location}>
+        <source src={"/img/" + image.name + ".webp"} srcSet={"/img/" + image.name + "@2x.webp 2x"} type="image/webp" width={image.width}/>
+        <source src={"/img/" + image.name + ".jpg"} srcSet={"/img/" + image.name + "@2x.jpg 2x"} type="image/jpeg" width={image.width}/>
+        <img alt="" src={"/img/" + image.name + ".jpg"} srcSet={"/img/" + image.name + "@2x.jpg 2x"} width={image.width}/>
+      </picture>
     );
   }
 

@@ -52,27 +52,51 @@ class FrescoiPhone extends Component {
         <section className="container container__full">
           <Slider {...slickSettings}>
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-1.jpg" />
+              <picture>
+                <source src="/img/frescoiphone-slider-1.webp" type="image/webp"/>
+                <source src="/img/frescoiphone-slider-1.jpg" type="image/jpeg"/>
+                <img alt="" src="/img/frescoiphone-slider-1.jpg"/>
+              </picture>
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-2.jpg" />
+              <picture>
+                <source src="/img/frescoiphone-slider-2.webp" type="image/webp"/>
+                <source src="/img/frescoiphone-slider-2.jpg" type="image/jpeg"/>
+                <img alt="" src="/img/frescoiphone-slider-2.jpg"/>
+              </picture>
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-3.jpg" />
+              <picture>
+                <source src="/img/frescoiphone-slider-3.webp" type="image/webp"/>
+                <source src="/img/frescoiphone-slider-3.jpg" type="image/jpeg"/>
+                <img alt="" src="/img/frescoiphone-slider-3.jpg"/>
+              </picture>
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-4.jpg" />
+              <picture>
+                <source src="/img/frescoiphone-slider-4.webp" type="image/webp"/>
+                <source src="/img/frescoiphone-slider-4.jpg" type="image/jpeg"/>
+                <img alt="" src="/img/frescoiphone-slider-4.jpg"/>
+              </picture>
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-5.jpg" />
+              <picture>
+                <source src="/img/frescoiphone-slider-5.webp" type="image/webp"/>
+                <source src="/img/frescoiphone-slider-5.jpg" type="image/jpeg"/>
+                <img alt="" src="/img/frescoiphone-slider-5.jpg"/>
+              </picture>
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-6.jpg" onLoad={this.handleImageLoaded.bind(this)} />
+              <picture onLoad={this.handleImageLoaded.bind(this)}>
+                <source src="/img/frescoiphone-slider-6.webp" type="image/webp"/>
+                <source src="/img/frescoiphone-slider-6.jpg" type="image/jpeg"/>
+                <img alt="" src="/img/frescoiphone-slider-6.jpg"/>
+              </picture>
             </div>
           </Slider>
 
