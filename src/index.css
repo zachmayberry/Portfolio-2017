@@ -78,7 +78,8 @@ img {
 
 .header__small {
   text-transform: uppercase;
-  font-family: AvenirNext-DemiBold;
+  font-family: Lato;
+  font-weight: bold;
   font-size: 14px;
   color: #B2C0CD;
   letter-spacing: 0.58px;
@@ -87,7 +88,7 @@ img {
 }
 
 .header__large {
-  font-family: AvenirNext-Medium;
+  font-family: Lato;
   font-size: 35px;
   color: #131B26;
   letter-spacing: 0;
@@ -96,7 +97,8 @@ img {
 }
 
 .text__basic {
-  font-family: AvenirNext-Regular;
+  font-family: Lato;
+  font-weight: normal;
   font-size: 18px;
   color: #131B26;
   letter-spacing: 0;
@@ -109,7 +111,7 @@ img {
 
 .grid-fifty {
   width: 100%;
-  padding: 0 26px;
+  padding: 26px;
   box-sizing: border-box;
 }
 
@@ -128,6 +130,48 @@ img {
   }
 }
 
+.grid-sixty {
+  width: 100%;
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .grid-sixty {
+    width: 60%;
+    padding: 0 26px;
+  }
+
+  .grid-sixty:first-child {
+    padding-left: 0;
+  }
+
+  .grid-sixty:last-child {
+    padding-right: 0;
+  }
+}
+
+.grid-forty {
+  width: 100%;
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .grid-forty {
+    width: 40%;
+    padding: 0 26px;
+  }
+
+  .grid-forty:first-child {
+    padding-left: 0;
+  }
+
+  .grid-forty:last-child {
+    padding-right: 0;
+  }
+}
+
 .list__detail {
   padding: 7px 0;
 }
@@ -135,7 +179,8 @@ img {
 .list__detail li {
   padding: 7px 0;
   border-bottom: 1px solid #F2F5F8;
-  font-family: AvenirNext-DemiBold;
+  font-family: Lato;
+  font-weight: 600;
   font-size: 18px;
   color: #131B26;
   letter-spacing: 0;
@@ -144,4 +189,8 @@ img {
 
 .list__detail li:last-child {
   border-bottom: 0;
+}
+
+.home {
+  background-color: #F2F5F8;
 }

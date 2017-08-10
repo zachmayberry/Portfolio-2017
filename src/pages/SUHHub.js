@@ -53,7 +53,7 @@ class SUHHub extends Component {
 
     return (
       <div>
-        <Header main={<div>Designing a Learning &amp; Communication Platform</div>} sub={<div>StartUp Health Hub</div>} imgUrl="/img/suhhub-top-screenshot" />
+        <Header main={<div>A Learning &amp; Communication Platform</div>} sub={<div>StartUp Health Hub</div>} imgUrl="/img/suhhub-top-screenshot" />
 
         <section className="container">
           <div className="grid-fifty">
@@ -90,13 +90,15 @@ class SUHHub extends Component {
 
         <section className="container">
           <div className="screenshot__wrap screenshot__wrap--teal screenshot__wrap--scrollable">
-            <img alt="" src="/img/suhhub-top-screenshot.png" srcSet="/img/suhhub-top-screenshot@2x.png 2x" />
+            <div>
+              <img alt="" src="/img/suhhub-top-screenshot.png" srcSet="/img/suhhub-top-screenshot@2x.png 2x" />
+            </div>
           </div>
 
           <div className="screenshot__caption screenshot__caption--center">
             <h1 className="header__small">Features</h1>
             <h2 className="header__large">Building a News Feed</h2>
-            <p className="text__basic">The next step was to build a platform for entrepreneurs to keep up-to-date on upcoming events, updates to their network profiles, all while encouraging each other to become more involved in the community.</p>
+            <p className="text__basic">The next step was to build a place for entrepreneurs to keep up-to-date on upcoming events, updates to other network profiles, all while encouraging each other to become more involved in the community.</p>
           </div>
         </section>
 

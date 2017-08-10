@@ -86,7 +86,7 @@ class SUHMarketing extends Component {
         </section>
 
         <section className="container">
-          <div className="grid-fifty">
+          <div className="grid-forty">
             <div className="screenshot__wrap screenshot__wrap--scrollable">
               <div>
                 <img alt="" src="/img/suhmarketing-mobile-screenshot.png" srcSet="/img/suhmarketing-mobile-screenshot@2x.png 2x" />
@@ -94,7 +94,7 @@ class SUHMarketing extends Component {
             </div>
           </div>
 
-          <div className="grid-fifty">
+          <div className="grid-sixty">
             <div className="screenshot__caption">
               <h1 className="header__small">Responsive</h1>
               <h2 className="header__large">Of course, it’s responsive</h2>

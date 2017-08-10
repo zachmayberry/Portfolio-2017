@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 import { Parallax, Background } from 'react-parallax';
 
@@ -7,7 +8,7 @@ class Header extends Component {
   render() {
     let parallax =
       <div style={{
-        height: 300,
+        height: 200,
       }}></div>
 
     if (this.props.imgUrl) {
@@ -24,8 +25,11 @@ class Header extends Component {
 
     return (
       <header>
-        <h1>{this.props.main}</h1>
-        <h2>{this.props.sub}</h2>
+        <div className="container">
+          <Link to="/" id="back-to-home"><img src="/img/back-arrow.svg" /> Back</Link>
+          <h1>{this.props.main}</h1>
+          <h2>{this.props.sub}</h2>
+        </div>
         {parallax}
       </header>
     );

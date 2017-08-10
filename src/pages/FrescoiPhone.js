@@ -21,7 +21,7 @@ class FrescoiPhone extends Component {
     var slickSettings = {
       infinite: true,
       speed: 500,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
       arrows: true,
       centerMode: true,
@@ -49,30 +49,40 @@ class FrescoiPhone extends Component {
           </div>
         </section>
 
+        <br />
+
+        <section className="container">
+          <div className="screenshot__wrap screenshot__wrap--yellow">
+            <img alt="" src="/img/frescoiphone-xcode@2x.png" />
+          </div>
+
+          <div className="screenshot__caption screenshot__caption--center">
+            <h1 className="header__small">Development</h1>
+            <h2 className="header__large">Interface Builder</h2>
+            <p className="text__basic">Building the interface directly in Xcode's Interface Builder enabled me to use all of iOS's latest features at the time like Storyboards and Auto Layout.</p>
+          </div>
+        </section>
+
         <section className="container container__full">
           <Slider {...slickSettings}>
-            <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-1.png" />
+            <div className="screenshot__wrap screenshot__wrap--mobile screenshot__wrap--rounded">
+              <img alt="" src="/img/frescoiphone-slider-1.png" srcSet="/img/frescoiphone-slider-1@2x.png 2x" />
             </div>
 
-            <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-2.png" />
+            <div className="screenshot__wrap screenshot__wrap--mobile screenshot__wrap--rounded">
+              <img alt="" src="/img/frescoiphone-slider-2.png" srcSet="/img/frescoiphone-slider-2@2x.png 2x" />
             </div>
 
-            <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-3.png" />
+            <div className="screenshot__wrap screenshot__wrap--mobile screenshot__wrap--rounded">
+              <img alt="" src="/img/frescoiphone-slider-3.png" srcSet="/img/frescoiphone-slider-3@2x.png 2x" />
             </div>
 
-            <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-4.png" />
+            <div className="screenshot__wrap screenshot__wrap--mobile screenshot__wrap--rounded">
+              <img alt="" src="/img/frescoiphone-slider-4.png" srcSet="/img/frescoiphone-slider-4@2x.png 2x" />
             </div>
 
-            <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-5.png" />
-            </div>
-
-            <div className="screenshot__wrap screenshot__wrap--mobile">
-              <img alt="" src="/img/frescoiphone-slider-6.png" onLoad={this.handleImageLoaded.bind(this)} />
+            <div className="screenshot__wrap screenshot__wrap--mobile screenshot__wrap--rounded">
+              <img alt="" src="/img/frescoiphone-slider-5.png" srcSet="/img/frescoiphone-slider-5@2x.png 2x" onLoad={this.handleImageLoaded.bind(this)} />
             </div>
           </Slider>
 
