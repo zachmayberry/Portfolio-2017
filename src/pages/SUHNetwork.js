@@ -82,7 +82,7 @@ class SUHNetwork extends Component {
 
           <div className="screenshot__caption screenshot__caption--center">
             <h1 className="header__small">Before &amp; After</h1>
-            <h2 className="header__large">Restructing the data</h2>
+            <h2 className="header__large">Restructuring the data</h2>
             <p className="text__basic">The goal was to present the data in a variety of ways to better suit the current viewer of the profile. Each set of data is broken up into contextual themes differentiated by color.</p>
           </div>
         </section>
