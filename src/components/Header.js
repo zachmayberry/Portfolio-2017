@@ -15,7 +15,7 @@ class Header extends Component {
       parallax =
           <Parallax strength={300}>
             <Background>
-              <img alt="" src={this.props.imgUrl +".png"} srcSet={this.props.imgUrl +"@2x.png 2x"}/>
+              <img alt="" src={this.props.imgUrl +".png"}/>
               <div style={{
                  height: 800,
                 }}></div>
