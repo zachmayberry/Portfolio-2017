@@ -154,7 +154,7 @@ const projects = [
   },
   {
     id: '4',
-    name: 'Fresco for tv',
+    name: 'Fresco for Apple TV',
     projectType: 'tvOS',
     url: '/work/fresco/tv',
     images: [
