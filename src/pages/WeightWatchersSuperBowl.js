@@ -41,7 +41,7 @@ class WeightWatchersSuperBowl extends Component {
           <div className="grid-fifty">
             <h1 className="header__small">About</h1>
             <h2 className="header__large">High-traffic Landing Page</h2>
-            <p className="text__basic">Rapidly developed the responsive marketing materials for Weight Watcher's incredible Super Bowl spot.</p>
+            <p className="text__basic">Rapidly developed the responsive marketing materials for Weight Watchers' incredible Super Bowl spot.</p>
           </div>
 
           <div className="grid-fifty">
