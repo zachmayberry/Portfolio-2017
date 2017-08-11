@@ -26,7 +26,7 @@ class Header extends Component {
     return (
       <header>
         <div className="container">
-          <Link to="/" id="back-to-home"><img src="/img/back-arrow.svg" /> Back</Link>
+          <Link to="/" id="back-to-home"><img alt="" src="/img/back-arrow.svg" /> Back</Link>
           <h1>{this.props.main}</h1>
           <h2>{this.props.sub}</h2>
         </div>
