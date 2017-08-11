@@ -16,7 +16,13 @@ header .container {
 }
 
 .home header {
-  padding-top: 20%;
+  padding-top: 50%;
+}
+
+@media (min-width: 600px) {
+  .home header {
+    padding-top: 20%;
+  }
 }
 
 #back-to-home {
