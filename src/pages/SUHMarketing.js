@@ -57,9 +57,9 @@ class SUHMarketing extends Component {
           </div>
 
           <div className="screenshot__caption screenshot__caption--center">
-            <h1 className="header__small">Features</h1>
-            <h2 className="header__large">Building a builder</h2>
-            <p className="text__basic">The next step was to enable users to build custom views into their data that allowed them to present themselves better to each audience. For example: funding data for potential Investors.</p>
+            <h1 className="header__small">Academy</h1>
+            <h2 className="header__large">The Sum is Greater than...</h2>
+            <p className="text__basic">The real challenge we faced involved communicating all that the Academy was into a single page without talking ourselves in circles. Clear calls-to-action following each section were key for increasing sign ups.</p>
           </div>
         </section>
 
@@ -79,9 +79,9 @@ class SUHMarketing extends Component {
           </Slider>
 
           <div className="screenshot__caption screenshot__caption--center">
-            <h1 className="header__small">Customization</h1>
-            <h2 className="header__large">Unique to each company</h2>
-            <p className="text__basic">The next step was to enable users to build custom views into their data that allowed them to present themselves better to each audience. For example: funding data for potential Investors.</p>
+            <h1 className="header__small">User Flow</h1>
+            <h2 className="header__large">Sign Up &amp; Log In</h2>
+            <p className="text__basic">Lots of care was put into developing a pain-free experience for new and returning users. Duplicate log ins plague many systems and a clear user flow generally goes a long way toward resolving that problem before it becomes another in a long line of support emails.</p>
           </div>
         </section>
 
@@ -98,7 +98,7 @@ class SUHMarketing extends Component {
             <div className="screenshot__caption">
               <h1 className="header__small">Responsive</h1>
               <h2 className="header__large">Of course, it’s responsive</h2>
-              <p className="text__basic">The next step was to enable users to build custom views into their data that allowed them to present themselves better to each audience. For example: funding data for potential Investors.</p>
+              <p className="text__basic">Great care is taken to develop not mobile-first (<a href="https://blog.prototypr.io/mobile-first-desktop-worst-f900909ae9e2">desktop-worst</a>), but to address each individually on their own terms. This can mean more work, but the end result of putting function first and allowing form to follow always leads to a better result.</p>
             </div>
           </div>
         </section>

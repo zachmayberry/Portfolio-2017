@@ -20,7 +20,8 @@ class SUHNetwork extends Component {
     super(props);
 
     this.state = {
-      cocoenIsLoaded: false
+      cocoenIsLoaded: false,
+      imageStatus: 'loading'
     };
   }
 
@@ -112,14 +113,14 @@ class SUHNetwork extends Component {
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--green">
-              <img alt="" src="/img/suhnetwork-slider-3.png" srcSet="/img/suhnetwork-slider-3@2x.png 2x" />
+              <img alt="" src="/img/suhnetwork-slider-3.png" srcSet="/img/suhnetwork-slider-3@2x.png 2x" onLoad={this.handleImageLoaded.bind(this)} />
             </div>
           </Slider>
 
           <div className="screenshot__caption screenshot__caption--center">
             <h1 className="header__small">Customization</h1>
             <h2 className="header__large">Unique to each company</h2>
-            <p className="text__basic">The next step was to enable users to build custom views into their data that allowed them to present themselves better to each audience. For example: funding data for potential Investors.</p>
+            <p className="text__basic">In an effort to encourage usage of the platform, we enabled entrepreneurs to create their own cover photos for featuring their product or team's unique culture.</p>
           </div>
         </section>
 
@@ -148,7 +149,7 @@ class SUHNetwork extends Component {
             <div className="screenshot__caption">
               <h1 className="header__small">Responsive</h1>
               <h2 className="header__large">Of course, it’s responsive</h2>
-              <p className="text__basic">The next step was to enable users to build custom views into their data that allowed them to present themselves better to each audience. For example: funding data for potential Investors.</p>
+              <p className="text__basic">Great care is taken to develop not mobile-first (<a href="https://blog.prototypr.io/mobile-first-desktop-worst-f900909ae9e2">desktop-worst</a>), but to address each individually on their own terms. This can mean more work, but the end result of putting function first and allowing form to follow always leads to a better result.</p>
             </div>
           </div>
         </section>
@@ -156,6 +157,10 @@ class SUHNetwork extends Component {
         <Footer />
       </div>
     );
+  }
+
+  handleImageLoaded() {
+    this.setState({ imageStatus: 'loaded' });
   }
 }
 

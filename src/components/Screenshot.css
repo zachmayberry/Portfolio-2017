@@ -107,3 +107,7 @@
 .screenshot__caption--center {
   text-align: center;
 }
+
+.screenshot__caption a {
+  color: #0DB6E0;
+}
