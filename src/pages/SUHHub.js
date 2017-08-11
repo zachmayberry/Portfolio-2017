@@ -113,7 +113,7 @@ class SUHHub extends Component {
             </div>
 
             <div className="screenshot__wrap screenshot__wrap--green">
-              <img alt="" src="/img/suhhub-slider-3.png" srcSet="/img/suhhub-slider-3@2x.png 2x" />
+              <img alt="" src="/img/suhhub-slider-3.png" srcSet="/img/suhhub-slider-3@2x.png 2x" onLoad={this.handleImageLoaded.bind(this)} />
             </div>
           </Slider>
 
@@ -127,6 +127,13 @@ class SUHHub extends Component {
         <Footer />
       </div>
     );
+  }
+
+  handleImageLoaded() {
+    var that = this;
+    setTimeout(function() {
+      that.setState({ imageStatus: 'loaded' });
+    }, 500);
   }
 }
 

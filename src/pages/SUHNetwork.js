@@ -160,7 +160,10 @@ class SUHNetwork extends Component {
   }
 
   handleImageLoaded() {
-    this.setState({ imageStatus: 'loaded' });
+    var that = this;
+    setTimeout(function() {
+      that.setState({ imageStatus: 'loaded' });
+    }, 500);
   }
 }
 
