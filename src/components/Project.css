@@ -12,6 +12,7 @@
   transition: all 0.5s;
   max-width: 340px;
   min-width: 300px;
+  cursor: pointer;
 }
 
 @media (min-width: 600px) {
