@@ -44,6 +44,7 @@ class WeightWatchers extends Component {
             <h1 className="header__small">Details</h1>
             <ul className="list__detail">
               <li>Responsive Development</li>
+              <li>SCSS, Bootstrap</li>
               <li>Worked together 2015</li>
             </ul>
           </div>

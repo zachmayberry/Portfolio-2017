@@ -44,6 +44,7 @@ class FrescoiPhone extends Component {
             <h1 className="header__small">Details</h1>
             <ul className="list__detail">
               <li>Interface Builder</li>
+              <li>Xcode</li>
               <li>Worked together 2015</li>
             </ul>
           </div>

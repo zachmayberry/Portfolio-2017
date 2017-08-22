@@ -65,7 +65,8 @@ class SUHHub extends Component {
           <div className="grid-fifty">
             <h1 className="header__small">Details</h1>
             <ul className="list__detail">
-              <li>UX Design</li>
+              <li>UX Design & Development</li>
+              <li>Invision, Sketch, Backbone.js</li>
               <li>Worked together 2012 - 2017</li>
             </ul>
           </div>

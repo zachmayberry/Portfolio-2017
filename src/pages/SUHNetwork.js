@@ -66,6 +66,7 @@ class SUHNetwork extends Component {
             <h1 className="header__small">Details</h1>
             <ul className="list__detail">
               <li>UX Design & Front-end Development</li>
+              <li>Sketch, Invision, Framer, Backbone.js</li>
               <li>Worked together 2012 - 2017</li>
             </ul>
           </div>

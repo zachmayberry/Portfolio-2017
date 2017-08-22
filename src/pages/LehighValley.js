@@ -44,6 +44,7 @@ class LehighValley extends Component {
             <h1 className="header__small">Details</h1>
             <ul className="list__detail">
               <li>Responsive Development</li>
+              <li>Foundation, SCSS, jQuery</li>
               <li>Worked together 2014</li>
             </ul>
           </div>
