@@ -14,6 +14,7 @@ import FrescoTV from './pages/FrescoTV';
 import WeightWatchers from './pages/WeightWatchers';
 import LehighValley from './pages/LehighValley';
 import WeightWatchersSuperBowl from './pages/WeightWatchersSuperBowl';
+import Heap from './pages/Heap';
 
 function scrollToTop(scrollDuration) {
     var cosParameter = window.scrollY / 2,
@@ -55,6 +56,7 @@ ReactDOM.render(
       <ScrollToTopRoute path="/work/ww/landingpage" component={WeightWatchers}/>
       <ScrollToTopRoute path="/work/ww/superbowl" component={WeightWatchersSuperBowl}/>
       <ScrollToTopRoute path="/work/lehighvalley/network" component={LehighValley}/>
+      <ScrollToTopRoute path="/work/heap" component={Heap}/>
     </div>
   </Router>,
   document.getElementById('root'));

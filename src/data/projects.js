@@ -9,7 +9,10 @@ const colors = {
   lehighPink: '#E02350',
   lehighBlue: '#19A3DD',
   wwPink: '#FEB2C8',
-  wwLightBlue: '#3EBFF8'
+  wwLightBlue: '#3EBFF8',
+  heapYellow: '#FDB809',
+  heapRed: '#F20032',
+  heapBlue: '#2B00FF'
 };
 
 const projects = [
@@ -121,6 +124,45 @@ const projects = [
   },
   {
     id: '3',
+    name: 'Heap.li',
+    projectType: 'Design Concept',
+    url: '/work/heap',
+    images: [
+      {
+        name: 'heap-browser',
+        location: 'bottom center bottom-offset',
+        width: '230px'
+      }
+    ],
+    shapes: [
+      {
+        id: 'heapYellowCircle',
+        type: 'circle',
+        location: 'bottom left under',
+        width: 200,
+        height: 200,
+        fill: colors.heapYellow
+      },
+      {
+        id: 'heapBlueCircle',
+        type: 'circle',
+        location: 'bottom right right-offset under',
+        width: 120,
+        height: 120,
+        fill: colors.heapBlue
+      },
+      {
+        id: 'heapRedCircle',
+        type: 'circle',
+        location: 'top top-offset right under',
+        width: 80,
+        height: 80,
+        fill: colors.heapRed
+      },
+    ]
+  },
+  {
+    id: '4',
     name: 'Fresco for iPhone',
     projectType: 'iOS',
     url: '/work/fresco/iphone',
@@ -153,7 +195,7 @@ const projects = [
     ]
   },
   {
-    id: '4',
+    id: '5',
     name: 'Fresco for Apple TV',
     projectType: 'tvOS',
     url: '/work/fresco/tv',
@@ -187,7 +229,7 @@ const projects = [
     ]
   },
   {
-    id: '5',
+    id: '6',
     name: 'Weight Watchers',
     projectType: 'Landing Page',
     url: '/work/ww/landingpage',
@@ -215,7 +257,7 @@ const projects = [
     ]
   },
   {
-    id: '6',
+    id: '7',
     name: 'Lehigh Valley',
     projectType: 'Health Network',
     url: '/work/lehighvalley/network',
@@ -252,7 +294,7 @@ const projects = [
     ]
   },
   {
-    id: '7',
+    id: '8',
     name: 'Weight Watchers',
     projectType: 'Superbowl Ad 2015',
     url: '/work/ww/superbowl',

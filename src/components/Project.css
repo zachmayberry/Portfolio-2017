@@ -103,6 +103,11 @@
   bottom: auto;
 }
 
+.shapes .top-offset {
+  top: 36%;
+  bottom: auto;
+}
+
 .shapes .bottom {
   top: auto;
   bottom: 0;
